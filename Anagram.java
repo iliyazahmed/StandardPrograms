@@ -7,7 +7,7 @@ class Anagram
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the 1st String");
 		String str1 = sc.next();
-        System.out.println("Enter the 2nd String");
+                System.out.println("Enter the 2nd String");
 		String str2 = sc.next();
 		
 		str1=str1.toLowerCase(); // to change the input to lower case
@@ -20,7 +20,7 @@ class Anagram
 		else if (str1.length()==str2.length())
 		{
 			// convert strings into arrays
-           char[] charArray1 = str1.toCharArray();
+                   char[] charArray1 = str1.toCharArray();
 		   char[] charArray2 = str2.toCharArray();
 		   
 		   //sort the char array
