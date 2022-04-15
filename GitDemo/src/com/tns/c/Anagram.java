@@ -13,8 +13,8 @@ public class Anagram {
 	System.out.println("Enter Second String ");
 	String val2 = scanner.next();
 	
-//	val=val.toLowerCase();
-//	val2=val2.toLowerCase();
+	val=val.toLowerCase();
+	val2=val2.toLowerCase();
 	
 	if(val.length()!=val2.length()) {
 		System.out.println("Both String are not Anagrams");
