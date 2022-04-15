@@ -13,7 +13,7 @@ class Factorial
           fact = fact*i;    
 		}
 		System.out.println("Factorial Series of "+num+" is "+fact);
-
+awrstdyfugjkl
 
 	}
 }
